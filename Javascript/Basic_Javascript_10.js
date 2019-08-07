@@ -28,3 +28,14 @@ let example = {
 };
 
 console.log(example.thingToDo())
+
+var num = 0;
+
+function callLoop() {
+
+while (num < 10) {
+    document.getElementById("loop").innerHTML = "The number is " + num;
+    num++;
+    console.log(num)
+  }
+}
